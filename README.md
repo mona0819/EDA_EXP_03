@@ -338,9 +338,25 @@ print("All analysis results saved successfully!")
 
 **Interpretation**
 
-1)PM2.5 and NO₂ show a strong positive correlation, suggesting that both pollutants increase together, likely due to vehicle and industrial emissions.
+1. PM2.5 and NO₂ show a strong positive correlation, suggesting that both pollutants increase together, possibly due to common sources such as vehicle and industrial emissions.
 
-2)  # write other insights
+2. The histograms show the distribution of different pollutants. The pollutant concentrations are not uniformly distributed, indicating variations in air pollution levels.
+
+3. The numerical summary shows the mean, median, mode, minimum, maximum, and quartile values of each pollutant, helping to understand their concentration levels.
+
+4. The measures of spread indicate variations in pollutant concentrations. Standard deviation and variance help identify how much the pollution levels differ from their average values.
+
+5. The box plots show the presence of outliers in pollutant concentrations, indicating certain observations with unusually high pollution levels.
+
+6. The IQR method successfully identifies extreme values in PM2.5, PM10, NO₂, and Ozone concentrations.
+
+7. Min-Max scaling transforms pollutant values into a common range between 0 and 1, making it easier to compare different pollutants.
+
+8. Z-score standardization converts pollutant values into a standardized scale with a mean approximately equal to 0 and standard deviation approximately equal to 1.
+
+9. The Gini coefficient measures the inequality in pollutant concentration values. A higher Gini coefficient indicates greater variation in the distribution of pollution levels.
+
+10. The analysis helps understand the distribution, variability, outliers, and relative concentration patterns of different air pollutants in Delhi.
 
 **Result**
 
